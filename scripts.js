@@ -1,5 +1,7 @@
    let mybutton = document.getElementById("myBtn");
-    let slider=tns({container: ".my-slider",
+
+   /* 
+   let slider=tns({container: ".my-slider",
                    "SlideBy": 1,
                    "speed": 400,
                    "nav": false,
@@ -11,6 +13,8 @@
                                768: {items: 3, gutter: 5},
                                480: {items: 3, gutter: 5}}
                    });
+   */
+
 
     window.onscroll = function() {scrollFunction()};
 
@@ -27,6 +31,7 @@
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
+   /*
     function bubbleup(x) {
       //x.style.background="rgba(145,177,204)"; x.style.color="rgba(255,255,255,1)"; 
       x.style.borderImage="linear-gradient(to top right, #ae8625 0%, #f6edab 20%, #c1ad52 70%, #f3c57a 100%) 30";
@@ -56,6 +61,8 @@
       x.querySelector('.fa-circle-info').style.opacity= "0"; 
       x.querySelector('.fa-cart-shopping').style.opacity= "0"; 
     }
+
+    */
 
     const menuIconContainer = document.querySelector(".nav-container .menu-icon-container")
     const navContainer = document.querySelector(".nav-container")
